@@ -1,0 +1,70 @@
+{
+  "profiles": [
+    {
+      "name": "Julie Bernard",
+      "title": "UX/UI Designer & Frontend Dev",
+      "description": "Designer produit et développeuse frontend, je crée des interfaces utilisateur exceptionnelles.",
+      "skills": ["UI/UX", "Figma", "CSS"],
+      "students": 5600,
+      "courses": 9,
+      "rating": 4.9,
+      "certificates": 5,
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "name": "Lucas Martin",
+      "title": "Full Stack Developer",
+      "description": "Passionné par le développement web, j'aime créer des applications performantes et scalables.",
+      "skills": ["JavaScript", "React", "Node.js"],
+      "students": 4200,
+      "courses": 8,
+      "rating": 4.8,
+      "certificates": 6,
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "name": "Amélie Dupont",
+      "title": "Data Scientist & AI Engineer",
+      "description": "Je transforme les données en solutions concrètes grâce à l'intelligence artificielle.",
+      "skills": ["Python", "TensorFlow", "Machine Learning"],
+      "students": 6100,
+      "courses": 10,
+      "rating": 4.95,
+      "certificates": 7,
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "name": "Karim Ben Ali",
+      "title": "Cybersecurity Specialist",
+      "description": "Expert en sécurité informatique, je protège les systèmes et les données des menaces numériques.",
+      "skills": ["Network Security", "Linux", "Ethical Hacking"],
+      "students": 3500,
+      "courses": 7,
+      "rating": 4.7,
+      "certificates": 4,
+      "avatar": "https://randomuser.me/api/portraits/men/67.jpg"
+    },
+    {
+      "name": "Sophie Morel",
+      "title": "Mobile Developer",
+      "description": "Je conçois des applications mobiles modernes et intuitives sur Android et iOS.",
+      "skills": ["Flutter", "Kotlin", "Swift"],
+      "students": 4800,
+      "courses": 6,
+      "rating": 4.85,
+      "certificates": 5,
+      "avatar": "https://randomuser.me/api/portraits/women/29.jpg"
+    },
+    {
+      "name": "Nicolas Durand",
+      "title": "Cloud Architect",
+      "description": "Spécialiste des solutions cloud, j’aide les entreprises à migrer et optimiser leur infrastructure.",
+      "skills": ["AWS", "Docker", "Kubernetes"],
+      "students": 5200,
+      "courses": 9,
+      "rating": 4.9,
+      "certificates": 6,
+      "avatar": "https://randomuser.me/api/portraits/men/50.jpg"
+    }
+  ]
+}

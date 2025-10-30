@@ -1,0 +1,311 @@
+@font-face {
+    font-family: "Satoshi";
+    src: url("../Fonts/OTF/Satoshi-Medium.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "Satoshi-reg";
+    src: url("../Fonts/OTF/Satoshi-Regular.otf") format("opentype");
+  }
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+a{
+    color: rgba(202, 194, 194, 0.4);
+    text-decoration: none;
+    transform: color 0.6 ease;
+}
+.container{
+    position: relative;          
+    width: 100%;
+    height: 100vh;
+    background: url('../img/artistic-blurry-colorful-wallpaper-background\ \(1\).jpg') no-repeat center/cover;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay{
+    position: absolute;
+    inset: 0; /* couvre toute la page */
+    background: rgba(20, 24, 31, 0.8); /* ton #14181f avec opacité */
+    z-index: 1;
+    backdrop-filter: blur(2px); /* effet de flou subtil */
+}
+.containt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 55;
+    width: 500px;
+}
+
+.titre{
+    font-family: "JetBrains Mono", monospace;
+    background: linear-gradient(to right, hsl(262,70%,60%), hsl(142, 76%, 60%)); /* from-primary to-accent */
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 5px;
+}
+
+.buttns{
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    padding: 4px 5px;
+    border-radius: 7px;
+    background-color: #272c35; 
+    gap: 20px;
+
+}
+
+.buttns button{
+    padding: 6px ;
+    width: 580px;
+    font-size: 16px;         
+    font-weight: 500;           
+    color: rgba(255, 255, 255, 0.885);  
+    cursor: pointer;
+    font-family: "Satoshi";
+    border-radius: 7px;
+    border: none;
+    background: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.buttns #btn1.open{
+    background-color: #0b0e13;
+}
+.buttns #btn1 {
+    color:rgba(141, 140, 140, 0.792) ;
+}
+
+.buttns #btn2{
+    color:rgba(141, 140, 140, 0.792) ;
+}
+
+.buttns #btn2.open{
+    background-color: #0b0e13;
+}
+
+.titre_2{
+    font-family: "poppins",sans-serif;
+    font-weight: 100;
+    margin-top: -15px;
+    font-size: 13px;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 82%;
+    height: 60vh;
+    background-color: #14181f; 
+    margin-top: 20px;
+    color: white;
+    border: 1px solid #242931;
+    display: none;
+}
+
+.formulaire_2{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 1px; 
+    gap: 15px;
+    margin-top: 15px;
+
+  
+}
+.buttns_form{
+    display: flex;
+    padding: 15px 1px;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.buttns_form button{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttns_form #btn1_form{
+    background-color:hsl(142, 76%, 60%);
+    font-size: 16px;         
+    font-weight: 500;           
+    color: #000000;                
+    cursor: pointer;
+    font-family: "Satoshi";
+    box-shadow: 0 0 10px hsl(142, 76%, 60%);
+    transform: box-shadow 0.5s ease;
+}
+
+.buttns_form #btn1_form:hover{
+    box-shadow: 0 0 30px hsl(142, 76%, 60%); 
+
+}
+
+.buttns_form #btn2_form{
+    background-color:transparent;
+    font-size: 14px;         
+    font-weight: 500;           
+    color: #cecece;                
+    cursor: pointer;
+    font-family: "Satoshi-reg";
+    transform: color 0.5 ease;
+}
+
+.buttns_form #btn2_form:hover{
+    color: hsl(142, 76%, 60%);
+}
+
+.formulaire label{
+    font-family: "poppins";
+    font-size: 15px;
+}
+
+.formulaire input {
+    padding: 10px 25px;
+    border-radius: 7px;
+    border: none;
+    background-color: #0b0e13;
+    border: 1px solid #242931;
+    outline: none;
+    transition: border-color 0.4s ease, box-shadow 0.3s ease;
+
+  }
+  
+  .formulaire input::placeholder {
+    color: rgba(202, 194, 194, 0.4);
+    letter-spacing: 0.5px;
+  }
+  
+  .formulaire input:focus{
+    border-color: hsl(142, 76%, 60%);
+  }
+.formulaire.open{
+    display: block;
+}
+.formulaire_ins{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 82%;
+    height: 65vh;
+    background-color: #14181f; 
+    margin-top: 20px;
+    color: white;
+    border: 1px solid #242931;
+    display: none;
+}
+
+.formulaire_ins.open{
+    display: block;
+}
+
+.formulaire_ins .formulaire_2{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 1px; 
+    gap: 10px;
+    margin-top: -2px;
+
+  
+}
+.formulaire_ins .buttns_form{
+    display: flex;
+    padding: 15px 1px;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.formulaire_ins .buttns_form button{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.formulaire_ins .buttns_form #btn1_form{
+    background-color:hsl(142, 76%, 60%);
+    font-size: 16px;         
+    font-weight: 500;           
+    color: #000000;                
+    cursor: pointer;
+    font-family: "Satoshi";
+    box-shadow: 0 0 10px hsl(142, 76%, 60%);
+    transform: box-shadow 0.5s ease;
+}
+
+.formulaire_ins .buttns_form #btn1_form:hover{
+    box-shadow: 0 0 30px hsl(142, 76%, 60%); 
+
+}
+
+.formulaire_ins .buttns_form #btn2_form{
+    background-color:transparent;
+    font-size: 12px;         
+    font-weight: 500;           
+    color: #cecece;                
+    cursor: pointer;
+    font-family: "Satoshi-reg";
+    transform: color 0.5 ease;
+}
+
+
+
+.formulaire_ins label{
+    font-family: "poppins";
+    font-size: 15px;
+}
+
+.formulaire_ins input {
+    padding: 10px 25px;
+    border-radius: 7px;
+    border: none;
+    background-color: #0b0e13;
+    border: 1px solid #242931;
+    outline: none;
+    transition: border-color 0.4s ease, box-shadow 0.3s ease;
+
+  }
+  
+  .formulaire_ins input::placeholder {
+    color: rgba(202, 194, 194, 0.4);
+    letter-spacing: 0.5px;
+  }
+  
+  .formulaire_ins input:focus{
+    border-color: hsl(142, 76%, 60%);
+  }
+
+  #retour{
+    color: rgba(202, 194, 194, 0.4);
+    cursor: pointer;
+    font-family: "poppins",sans-serif;
+    font-size: 13px;
+    margin-top: 30px;
+    transform: color 0.5 ease;
+
+  }
+
+  #retour:hover ,#retour a:hover{
+    color: hsl(142, 76%, 60%);
+  }
+  

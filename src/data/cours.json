@@ -1,0 +1,71 @@
+{
+    "cours": [
+      {
+        "titre": "JavaScript Moderne",
+        "niveau": "Intermédiaire",
+        "badges": ["JavaScript", "ES6+", "Frontend"],
+        "description": "Maîtrisez ES6+, async/await, les modules et les dernières fonctionnalités de JavaScript.",
+        "duree": "12h",
+        "nombre_etudiants": 2847,
+        "note": 4.8,
+        "prix": "49€",
+        "image": "../img/img2_card.jpg"
+      },
+      {
+        "titre": "Python pour Débutants",
+        "niveau": "Débutant",
+        "badges": ["Python", "Programmation", "Backend"],
+        "description": "Apprenez Python de zéro et construisez vos premiers programmes et scripts.",
+        "duree": "15h",
+        "nombre_etudiants": 3920,
+        "note": 4.7,
+        "prix": "39€",
+        "image": "../img/img1_card.jpg"
+      },
+      {
+        "titre": "React Avancé",
+        "niveau": "Avancé",
+        "badges": ["React", "JavaScript", "Frontend"],
+        "description": "Approfondissez vos compétences en React, Redux et hooks pour construire des applications.",
+        "duree": "10h",
+        "nombre_etudiants": 1985,
+        "note": 4.9,
+        "prix": "59€",
+        "image": "../img/img2_card.jpg"
+      },
+      {
+        "titre": "Node.js et Express",
+        "niveau": "Intermédiaire",
+        "badges": ["Node.js", "Backend", "API"],
+        "description": "Créez des API robustes avec Node.js et Express et connectez-les à des bases de données.",
+        "duree": "14h",
+        "nombre_etudiants": 2431,
+        "note": 4.6,
+        "prix": "45€",
+        "image": "../img/img1_card.jpg"
+      },
+      {
+        "titre": "CSS et Design Web",
+        "niveau": "Débutant",
+        "badges": ["CSS", "Frontend", "Design"],
+        "description": "Apprenez à styliser vos pages web et à créer des interfaces modernes et responsive.",
+        "duree": "8h",
+        "nombre_etudiants": 3120,
+        "note": 4.5,
+        "prix": "35€",
+        "image": "../img/img2_card.jpg"
+      },
+      {
+        "titre": "SQL et Bases de Données",
+        "niveau": "Intermédiaire",
+        "badges": ["SQL", "Bases de Données", "Backend"],
+        "description": "Maîtrisez SQL pour créer, gérer et interroger efficacement des bases de données relationnelles.",
+        "duree": "11h",
+        "nombre_etudiants": 2760,
+        "note": 4.7,
+        "prix": "40€",
+        "image": "../img/img1_card.jpg"
+      }
+    ]
+  }
+  
